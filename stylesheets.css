@@ -1,8 +1,22 @@
-h1{
-    color: red;
+body {
+    background-color: pink;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-/* Buttons Styling */
+/* HEADER STYLES */
+
+.headerText {
+    font-family: 'Shrikhand', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 00px;
+    color: white;
+}
+
+/* BUTTONS STYLES */
 
 .buttons {
     display: flex;
