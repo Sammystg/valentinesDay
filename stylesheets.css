@@ -16,6 +16,14 @@ body {
     color: white;
 }
 
+/* GIF CONTAINER STYELES */
+
+.gifContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* BUTTONS STYLES */
 
 .buttons {
