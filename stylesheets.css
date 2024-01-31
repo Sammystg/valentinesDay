@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: #facade;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -37,6 +37,7 @@ body {
 
 .btn {
     position: absolute;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -44,17 +45,23 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    background-color: #ffbac3;
 }
+
 
 #yesButton {
     position: absolute;
     margin-right: 150px;
+    border: none;
+    border-radius: 12px;
 }
 
 #noButton {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
+    border: none;
+    border-radius: 12px;
 }
 
 
