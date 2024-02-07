@@ -106,7 +106,7 @@ body {
     }
 
     .gifContainer {
-        max-width: 50%;
+        max-width: 90%;
     }
 
     .buttons {
@@ -124,7 +124,7 @@ body {
     }
 
     #noButton {
-        margin-left: 0;
-        margin-top: 10px;
+        width: aito;
+        margin: 4px 2px;
     }
 }
