@@ -27,6 +27,12 @@ body {
 
 /* GIF CONTAINER STYLES */
 
+.gifWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .gifContainer {
     display: flex;
     justify-content: center;
