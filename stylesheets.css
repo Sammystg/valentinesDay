@@ -110,21 +110,22 @@ body {
     }
 
     .buttons {
-        flex-direction: column;
-        margin: 10px;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 0;
     }
 
     .btn {
-        margin: 4px 0;
-        width: 100%;
+        margin: 4px;
+        width: auto;
     }
 
     #yesButton {
-        margin-right: 0;
+        margin-right: 4px;
     }
 
     #noButton {
-        width: auto;
-        margin: 4px 2px;
+        pointer-events: none;
     }
 }
