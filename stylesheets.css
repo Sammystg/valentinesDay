@@ -25,15 +25,19 @@ body {
     color: white;
 }
 
-/* GIF CONTAINER STYELES */
+/* GIF CONTAINER STYLES */
 
 .gifContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 /* BUTTONS STYLES */
+
+/* the no button  is clickable on first page load and is directing to yes page. NEED TO  FIX!!!! */
 
 .buttons {
     display: flex;
@@ -89,16 +93,32 @@ body {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 600px) {
+@media (max-width: 768px) {
     .headerText {
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: 50px;
     }
 
     .gifContainer {
-        margin-top: 10px;
+        max-width: 90%;
     }
 
     .buttons {
-        flex-direction: row;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .btn {
+        margin: 4px 0;
+        width: 100%;
+    }
+
+    #yesButton {
+        margin-right: 0;
+    }
+
+    #noButton {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
