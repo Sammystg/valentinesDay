@@ -124,7 +124,7 @@ body {
     }
 
     #noButton {
-        width: aito;
+        width: auto;
         margin: 4px 2px;
     }
 }
