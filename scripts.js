@@ -17,5 +17,12 @@ function moveButton(){
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    var button = document.getElementById('noButton');
+
+    button.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        moveButton();
+    });
 
 });

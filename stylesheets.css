@@ -90,6 +90,7 @@ body {
     transition: 0.5s;
     border: none;
     border-radius: 12px;
+    /* pointer-events: none; */
 }
 
 .container {
