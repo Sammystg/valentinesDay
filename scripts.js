@@ -21,10 +21,15 @@
 // });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var noButton = document.getEventById('noButton');
+    var noButton = document.getElementById('noButton');
 
     noButton.addEventListener('click', function(event) {
         event.preventDefault();
+    });
+
+    noButton.addEventListener('touchstart', function(event) {
+        event.preventDefault();
+
         moveButton();
     });
 })
