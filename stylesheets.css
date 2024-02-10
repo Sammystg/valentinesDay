@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    overflow-x: hidden;
 }
 
 .gifContainer {
@@ -38,6 +39,12 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.gifContainer img {
+    width: 100%;
     height: auto;
 }
 
