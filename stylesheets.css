@@ -50,8 +50,6 @@ body {
 
 /* BUTTONS STYLES */
 
-/* the no button  is clickable on first page load and is directing to yes page. NEED TO  FIX!!!! */
-
 .buttons {
     display: flex;
     flex-direction: row;
